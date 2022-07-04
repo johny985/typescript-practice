@@ -28,7 +28,7 @@ export interface Country {
   TotalRecovered: number;
 }
 
-interface CountrySummaryInfo {
+export interface CountrySummaryInfo {
   Cases: number;
   City: string;
   CityCode: string;
